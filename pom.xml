@@ -104,7 +104,14 @@
         <name>Landmark Technologies Snapshot Nexus Repository </name>
         <url>http://54.162.171.210:8081/repository/tesla-we-snapshots/</url>
       </snapshotRepository>
-      
+      <servers>
+  <server>
+    <id>nexus</id>
+    <username>admin</username>
+    <password>admin123</password>
+  </server>
+</servers>
+
   </distributionManagement>
 	
 	<build>
